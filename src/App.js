@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import HomePage from './containers/HomePage.js'
+import HomePage from './components/HomePage.js'
 import NavBar from './containers/NavBar.js'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 
@@ -9,11 +9,11 @@ class App extends Component {
       <Router>
         <React.Fragment>
           <NavBar />
-          <Route exact path = '/' Component={HomePage} />
+          <Route exact path = '/' component={HomePage} />
           {/* uncomment as you add the pages */}
-          {/* <Route path = '/about' Component={About} />
-          <Route path = '/projects' Component={Projects} />
-          <Route path = '/contact' Component={Contact} /> */}
+          {/* <Route path = '/about' component={About} />
+          <Route path = '/projects' component={Projects} />
+          <Route path = '/contact' component={Contact} /> */}
         </React.Fragment>
       </Router>
     );
