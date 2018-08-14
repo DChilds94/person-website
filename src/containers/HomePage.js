@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Intro from './Intro.js';
+import Intro from '../components/Intro.js';
 
 
 class HomePage extends Component {
