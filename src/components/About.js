@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import WorkExpiernce from './WorkExperence';
 
 class About extends Component {
     render(){
         return(
             <div>
-                <h1>Work Experience</h1>
+                <WorkExpiernce/>
 
-                
+
             </div>
         ) 
     }  
