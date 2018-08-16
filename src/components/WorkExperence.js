@@ -14,7 +14,7 @@ class WorkExpiernce extends Component {
             </ul>
             </div>
 
-            <h1 className="h1-titles">Technical Experience</h1>
+            <h1 className="work-h1-titles">Technical Experience</h1>
             <h2>Software Engineering Student - CodeClan - March 2018 - July 2018 </h2>
             <p className='position-summary'>CodeClan is a digital skills and coding academy for learning software engineering and digital skills. I have developed a range of full-stack web applications working individually and as a part of a team. During CodeClan I covered a wide range of technologies and I have experience working with Java, JavaScript, Node.JS, and Ruby. </p>
             <div className='position-skills-list'>
